@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فروشگاه رویال سنتر</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#1e3c72;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+.products{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card h3{
+    color:#1e3c72;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.price{
+    color:#e63946;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.buy-btn{
+    width:100%;
+    border:none;
+    background:#1e3c72;
+    color:white;
+    padding:12px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.buy-btn:hover{
+    background:#2a5298;
+}
+
+.back{
+    display:block;
+    width:220px;
+    text-align:center;
+    margin:30px auto;
+    padding:12px;
+    background:#1e3c72;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>فروشگاه رویال سنتر</h1>
+    <p>جدیدترین محصولات دیجیتال</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="https://picsum.photos/400/300?1">
+<div class="card-content">
+<h3>لپ تاپ ایسوس</h3>
+<p>مناسب برنامه‌نویسی، طراحی و امور روزمره</p>
+<div class="price">45,000,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?2">
+<div class="card-content">
+<h3>هدفون بی‌سیم</h3>
+<p>کیفیت صدای عالی و باتری قدرتمند</p>
+<div class="price">2,500,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?3">
+<div class="card-content">
+<h3>مودم فیبر نوری</h3>
+<p>اینترنت پرسرعت برای خانه و محل کار</p>
+<div class="price">3,800,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?4">
+<div class="card-content">
+<h3>کیبورد گیمینگ</h3>
+<p>نورپردازی RGB و کلیدهای مکانیکی</p>
+<div class="price">1,900,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+<div class="card">
+<img src="https://picsum.photos/400/300?5">
+<div class="card-content">
+<h3>موس گیمینگ</h3>
+<p>دقت بالا و طراحی ارگونومیک</p>
+<div class="price">1,200,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?6">
+<div class="card-content">
+<h3>مانیتور 27 اینچ</h3>
+<p>کیفیت تصویر Full HD</p>
+<div class="price">8,500,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?7">
+<div class="card-content">
+<h3>هارد اکسترنال</h3>
+<p>ظرفیت 2 ترابایت</p>
+<div class="price">4,300,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?8">
+<div class="card-content">
+<h3>اسپیکر بلوتوثی</h3>
+<p>صدای شفاف و قدرتمند</p>
+<div class="price">2,900,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?9">
+<div class="card-content">
+<h3>گوشی هوشمند</h3>
+<p>دوربین حرفه‌ای و باتری قوی</p>
+<div class="price">22,000,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?10">
+<div class="card-content">
+<h3>تبلت</h3>
+<p>مناسب مطالعه و کارهای روزانه</p>
+<div class="price">14,500,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?11">
+<div class="card-content">
+<h3>وب کم HD</h3>
+<p>مناسب کلاس و جلسات آنلاین</p>
+<div class="price">1,700,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?12">
+<div class="card-content">
+<h3>پرینتر رنگی</h3>
+<p>چاپ سریع و با کیفیت</p>
+<div class="price">9,800,000 تومان</div>
+<button class="buy-btn">افزودن به سبد خرید</button>
+</div>
+</div>
+
+</section>
+
+<a href="index.html" class="back">بازگشت به صفحه اصلی</a>
+
+</body>
+</html>
+
